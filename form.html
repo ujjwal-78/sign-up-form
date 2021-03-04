@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="form.css" />
+    <title>Sign-Up Form</title>
+    <div id="survey" class="survey-class">
+      <h1 id="title">
+        <span id="prime">prime</span> <span id="videos">videos</span>
+      </h1>
+
+      <p id="description">
+        Thank you for choosing Amazon Prime Videos. Tell us about yourself.
+      </p>
+    </div>
+  </head>
+  <body>
+    <div class="survey-class">
+      <form id="survey-form">
+        <div class="form-inner">
+          <div class="space">
+            <label for="name" id="name-label">First Name </label>
+            <input
+              id="name"
+              class="form-input"
+              name="name"
+              type="text"
+              placeholder="Tom"
+              required
+            /><br />
+            <label for="last name" id="lname-label">Last Name</label>
+            <input
+              id="hname"
+              type="text"
+              name="name"
+              placeholder="Clancy"
+              class="form-input" required
+            /><br />
+
+            <label for="email" id="email-label"> Email </label>
+            <input
+              id="email"
+              name="email"
+              type="email"
+              placeholder="username@email.com"
+              class="form-input"
+              required
+            />
+            <br />
+
+            <label for="number" id="number-label"> Age </label>
+            <input
+              id="number"
+              type="number"
+              name="number"
+              min="18"
+              max="100"
+              placeholder="18"
+              class="form-input"
+              required
+            /><br />
+
+            <div id="gender">
+              <label for="gender" id="gender-label">Gender:</label><br />
+
+              <input type="radio" name="gender choice" value="choice 1" />
+              <label for="gender-male" class="gender-selection">Male</label
+              ><br />
+
+              <input type="radio" name="gender choice" value="choice 2" />
+              <label for="gender-female" class="gender-selection">Female</label
+              ><br />
+
+              <input type="radio" name="gender choice" value="choice 3" />
+              <label for="gender-other" class="gender-selection">Other</label
+              ><br />
+            </div>
+            <br />
+
+            <div id="language">
+              <label for="language" id="dropdown">Preferred Language</label>
+
+              <select id="dropdown-option">
+                <option value="0" selected disabled>-select-</option>
+                <option value="1">English</option>
+                <option value="2">Hindi</option>
+                <option value="3">Tamil</option>
+                <option value="4">Telugu</option>
+                <option value="5">Kannada</option>
+              </select>
+            </div>
+            <br />
+
+            <div id="movie-genres">
+              <label for="movie-genres" id="genres">Genres:</label><br />
+
+              <input
+                type="checkbox"
+                id="movie-genre"
+                name="genres"
+                value="action"
+              />
+              <label for="movie-genres">Action</label>
+
+              <input
+                type="checkbox"
+                id="movie-genre"
+                name="genres"
+                value="drama"
+              />
+              <label for="movie-genres">Drama</label>
+
+              <input
+                type="checkbox"
+                id="movie-genre"
+                name="genres"
+                value="comedy"
+              />
+              <label for="movie-genres">Comedy</label>
+
+              <input
+                type="checkbox"
+                id="movie-genre"
+                name="genres"
+                value="romance"
+              />
+              <label for="movie-genres">Romance</label>
+
+              <input
+                type="checkbox"
+                id="movie-genre"
+                name="genres"
+                value="crime"
+              />
+              <label for="movie-genres">Crime</label>
+
+              <input
+                type="checkbox"
+                id="movie-genre"
+                name="genres"
+                value="horror"
+              />
+              <label for="action">Horror</label>
+              
+              <input
+              type="checkbox"
+              id="movie-genre"
+              name="genres"
+              value="mystery"
+              />
+              <label for="movie-genres">Mystery</label>
+              
+
+              <input
+                type="checkbox"
+                id="movie-genre"
+                name="genres"
+                value="musical"
+              />
+              <label for="movie-genres">Musical</label>
+
+              <input
+                type="checkbox"
+                id="movie-genre"
+                name="genres"
+                value="documentry"
+              />
+              <label for="movie-genres">Documentry</label>
+
+              <input
+                type="checkbox"
+                id="movie-genre"
+                name="genres"
+                value="sci-fi"
+              />
+              <label for="movie-genres">Sci-Fi</label>
+
+              <input
+                type="checkbox"
+                id="movie-genre"
+                name="genres"
+                value="superhero"
+              />
+              <label for="movie-genres">Superhero</label>
+            </br>
+          </div>
+          <br />
+          
+            <div id="details">
+              <label for="details" id="about-us">About Yourself</label><br />
+              <textarea id="details" name="details" rows="5" cols="40">
+              </textarea>
+            </div>
+
+            <button id="submit" type="submit" value="Submit">SIGN-UP</button>
+            <button id="reset" type="reset" value="Reset">RESET</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

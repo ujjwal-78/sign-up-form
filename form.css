@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Jura&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Jura&family=Kanit&family=Montserrat&display=swap");
+
+body {
+  background-color: rgb(224, 219, 210);
+  color: rgb(0, 0, 0);
+  width: 500px;
+  font-family: "Jura", sans-serif;
+  margin: auto;
+  line-height: 1.4;
+}
+
+#prime {
+  color: rgb(0, 162, 255);
+  font-family: "Kanit", sans-serif;
+}
+
+#videos {
+  color: rgb(15, 15, 15);
+  font-family: "Kanit", sans-serif;
+}
+
+#title {
+  text-align: center;
+  font-size: 50px;
+  margin-left: 90px;
+}
+
+p {
+  text-align: center;
+  padding-left: 90px;
+}
+
+#survey-form {
+  background-color: rgb(97, 96, 94);
+  color: rgb(255, 255, 255);
+  padding: 2.5rem 2.5rem;
+  border-radius: 2rem;
+  width: 500px;
+  margin: auto;
+}
+
+.form-inner {
+  margin: 0 auto 0.25rem auto;
+  padding: 0.25rem;
+}
+
+.form-input {
+  display: block;
+  width: 90%;
+  height: 2rem;
+  padding: 0.25rem 0.75rem;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+}
+
+#details {
+  width: 97%;
+  display: block;
+  border-radius: 0.25rem;
+}
+
+#name-label,
+#lname-label,
+#email-label,
+#number-label,
+#gender-label,
+#dropdown,
+#genres,
+#about-us {
+  color: rgb(248, 248, 248);
+  font-weight: bold;
+}
+
+#submit {
+  background: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  border: 2px solid #eee;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px rgb(0, 0, 0);
+  text-shadow: none;
+  padding: 10px;
+  width: 215px;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+#submit:hover {
+  background: #016abc;
+  color: #fff;
+  border: 2px solid #eee;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px #eee;
+  text-shadow: none;
+}
+
+#reset {
+  background: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  border: 2px solid #eee;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px rgb(0, 0, 0);
+  text-shadow: none;
+  padding: 10px;
+  width: 215px;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+#reset:hover {
+  background: #016abc;
+  color: #fff;
+  border: 2px solid #eee;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px #eee;
+  text-shadow: none;
+}
